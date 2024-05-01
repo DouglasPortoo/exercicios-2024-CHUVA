@@ -1,0 +1,483 @@
+.container {
+  display: flex;
+}
+
+.side-menu {
+  width: 220px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.side-menu p {
+  background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+  height: 68px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.side-menu .side-bar {
+  list-style-type: none;
+}
+
+.side-menu .side-bar li {
+  border-bottom: 2px solid #E7E7E7;
+  padding-left: 24px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.side-menu .side-bar li a {
+  text-decoration: none;
+  color: inherit;
+
+  color: #725C5C;
+  font-family: Quicksand;
+  font-size: 15px;
+  font-weight: 500;
+
+  cursor: pointer;
+
+}
+
+.side-menu .side-bar li:hover {
+  background-color: #FDF1EB;
+  border-image: linear-gradient(180deg, #FFB455 0%, #ED7839 100%);
+  border-image-slice: 1;
+  border-left-width: 4px;
+  border-left-style: solid;
+}
+
+.lado-direito header {
+  padding-right: 45px;
+  padding-left: 45px;
+
+  background: #FDF1EB;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 68px;
+
+  margin-bottom: 22px;
+}
+
+.lado-direito header .title p {
+  color: #725C5C;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.lado-direito header .title h3 {
+  color: #725C5C;
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.lado-direito header .idiomas-login {
+  display: flex;
+  gap: 22px;
+}
+
+.lado-direito header .botao-idiomas {
+  border-radius: 3px;
+  border: 1px solid #CCC;
+
+  display: flex;
+  padding: 10px;
+  gap: 5px;
+}
+
+.lado-direito header .botao-idiomas select {
+  background-color: #FDF1EB;
+  border: none;
+}
+
+.lado-direito header .login {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+
+.lado-direito header .login>div>p {
+  color: #333;
+  font-family: Quicksand;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.lado-direito header .login>div>p:first-child {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.lado-direito header .login img {
+  border-radius: 999%;
+}
+
+.lado-direito .content {
+  padding-right: 45px;
+  padding-left: 45px;
+
+  display: flex;
+  gap: 30px;
+}
+
+.lado-direito .content .video {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+
+.lado-direito .content .video h2 {
+  color: #ED7839;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 25px;
+  /* 125% */
+  letter-spacing: 1px;
+}
+
+.lado-direito .content .detalhes {
+  width: 400px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.lado-direito .content .detalhes .buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.lado-direito .content .detalhes .buttons button {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  border-radius: 4px;
+  background: #ED7839;
+
+  border: none;
+
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+
+  cursor: pointer;
+
+  margin-bottom: 12px;
+}
+
+.lado-direito .content .detalhes>span {
+  color: #ED7839;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 25px;
+  letter-spacing: 0.7px;
+
+  margin-bottom: 5px;
+}
+
+.lado-direito .content .detalhes>p {
+  color: #4E4E4E;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 25px;
+
+
+  border-radius: 3px 3px 0px 0px;
+  border: 1px solid #ECECEC;
+  background: #FDF1EB;
+
+  padding: 15px 11px;
+
+}
+
+.lado-direito .content .detalhes .painel-scroll {
+  height: 364px;
+  padding: 16px;
+  overflow-y: auto;
+  border-radius: 3px;
+  border: 1px solid #ECECEC;
+}
+
+
+
+.lado-direito .resumo {
+
+  margin-top: 30px;
+  margin-right: 45px;
+  margin-left: 45px;
+
+  border-radius: 3px;
+  border: 1px solid #ECECEC;
+}
+
+
+.lado-direito .resumo h2 {
+  color: #4E4E4E;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 25px;
+
+
+  border-radius: 3px 3px 0px 0px;
+  border: 1px solid #ECECEC;
+  background: #FDF1EB;
+
+  padding: 15px 11px;
+}
+
+.lado-direito .resumo p {
+  align-self: stretch;
+
+  color: #5C5C5C;
+  font-family: Quicksand;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 162.5%;
+  letter-spacing: 0.28px;
+  padding: 15px
+}
+
+.lado-direito .resumo span {
+  color: #ED7839;
+  font-family: Quicksand;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 152.344%;
+  letter-spacing: 0.28px;
+
+  cursor: pointer;
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+.resumo-conteudo {
+  overflow: hidden;
+  max-height: 200px;
+  transition: max-height 0.3s ease;
+}
+
+.resumo-conteudo.expandido {
+  max-height: none;
+}
+
+.lado-direito .discussoes {
+
+  margin-top: 30px;
+  margin-right: 45px;
+  margin-left: 45px;
+  margin-bottom: 50px;
+
+  border-radius: 3px;
+  border: 1px solid #ECECEC;
+}
+
+.lado-direito .discussoes h2 {
+  color: #4E4E4E;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 25px;
+
+
+  border-radius: 3px 3px 0px 0px;
+  border: 1px solid #ECECEC;
+  background: #FDF1EB;
+
+  padding: 15px 11px;
+
+}
+
+.lado-direito .discussoes .compartilhar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lado-direito .discussoes .compartilhar h3 {
+  color: #ED7839;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  margin: 15px;
+}
+
+.lado-direito .discussoes .compartilhar .imagens {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 35px;
+}
+
+.imagens img {
+  width: 50.26px;
+  height: 48.935px;
+}
+
+.lado-direito .discussoes .compartilhar p {
+  color: #595959;
+  font-family: Quicksand;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 137.5%;
+
+  width: 626px;
+  text-align: center;
+
+  margin-bottom: 20px
+}
+
+.lado-direito .discussoes .compartilhar button {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+
+  color: #FFF;
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+
+  border: none;
+  border-radius: 5px;
+
+  cursor: pointer;
+
+  width: 133px;
+  height: 32px;
+
+
+  background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.24)) drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.12));
+
+}
+
+.lado-direito .discussoes .container-topico {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.lado-direito .discussoes .container-topico .topico {
+  padding: 15px;
+
+  border-radius: 4px;
+  border: 1px solid #E7E7E7;
+  background: #FFF;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.12);
+}
+
+.lado-direito .discussoes .container-topico .topico h3{
+  color: #ED7839;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+
+}
+
+.lado-direito .discussoes .container-topico .topico span{
+  color: #5C5C5C;
+  font-family: Quicksand;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: normal;
+
+}
+
+
+.lado-direito .discussoes .container-topico .topico p{
+  color: #4D4D4D;
+  font-family: Quicksand;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+
+  
+}
+
+.lado-direito .discussoes .container-topico .topico .botoes-topicos {
+  display:  flex;
+  align-items: center;
+  
+  gap: 10px;
+
+  height: 20px;
+  margin-top: 10px;
+}
+
+.lado-direito .discussoes .container-topico .topico .botoes-topicos img{
+  height: 13px;
+  cursor: pointer;
+}
+
+.lado-direito .discussoes .container-topico .topico .botoes-topicos button{
+  background-color: #ED7839;
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.24)) drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.12));
+  border: none;
+
+  width: 27px;
+  height: 19px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 5px
+}
+
+
+.lado-direito .discussoes .container-topico .topico .botoes-topicos p{
+color: #757575;
+font-family: "Segoe UI";
+font-size: 14px;
+font-style: normal;
+font-weight: 350;
+line-height: normal;
+}
+
+footer img {
+  width: 100%;
+  padding-left: 4px;
+}
+
