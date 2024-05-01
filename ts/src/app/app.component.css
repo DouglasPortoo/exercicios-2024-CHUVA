@@ -407,7 +407,7 @@
   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.12);
 }
 
-.lado-direito .discussoes .container-topico .topico h3{
+.lado-direito .discussoes .container-topico .topico h3 {
   color: #ED7839;
   font-family: Roboto;
   font-size: 18px;
@@ -416,7 +416,7 @@
 
 }
 
-.lado-direito .discussoes .container-topico .topico span{
+.lado-direito .discussoes .container-topico .topico span {
   color: #5C5C5C;
   font-family: Quicksand;
   font-size: 12px;
@@ -426,32 +426,32 @@
 }
 
 
-.lado-direito .discussoes .container-topico .topico p{
+.lado-direito .discussoes .container-topico .topico p {
   color: #4D4D4D;
   font-family: Quicksand;
   font-size: 14px;
   font-weight: 400;
   line-height: normal;
 
-  
+
 }
 
 .lado-direito .discussoes .container-topico .topico .botoes-topicos {
-  display:  flex;
+  display: flex;
   align-items: center;
-  
+
   gap: 10px;
 
   height: 20px;
   margin-top: 10px;
 }
 
-.lado-direito .discussoes .container-topico .topico .botoes-topicos img{
+.lado-direito .discussoes .container-topico .topico .botoes-topicos img {
   height: 13px;
   cursor: pointer;
 }
 
-.lado-direito .discussoes .container-topico .topico .botoes-topicos button{
+.lado-direito .discussoes .container-topico .topico .botoes-topicos button {
   background-color: #ED7839;
   filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.24)) drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.12));
   border: none;
@@ -467,13 +467,13 @@
 }
 
 
-.lado-direito .discussoes .container-topico .topico .botoes-topicos p{
-color: #757575;
-font-family: "Segoe UI";
-font-size: 14px;
-font-style: normal;
-font-weight: 350;
-line-height: normal;
+.lado-direito .discussoes .container-topico .topico .botoes-topicos p {
+  color: #757575;
+  font-family: "Segoe UI";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: normal;
 }
 
 footer img {
@@ -481,3 +481,100 @@ footer img {
   padding-left: 4px;
 }
 
+.lado-direito .discussoes .hide {
+  display: none;
+  background-color: blue;
+}
+
+.lado-direito .discussoes .hide {
+  display: none;
+}
+
+.lado-direito .discussoes .novo-topico p {
+  text-align: center;
+  width: 100%;
+  margin: 15px;
+
+  color: #5C5C5C;
+  font-family: Quicksand;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+}
+
+.lado-direito .discussoes .novo-topico form {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+
+
+  background: #EAF1F2;
+}
+
+.lado-direito .discussoes .novo-topico label {
+
+  color: #ED7839;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  padding-top: 10px;
+
+  background-color: white;
+}
+
+
+.lado-direito .discussoes .novo-topico form input {
+  padding: 10px 24px;
+  border-radius: 3px;
+  border: 1px solid #CCC;
+  background: #FFF;
+
+  color: #4D4D4D;
+  font-family: Quicksand;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.lado-direito .discussoes .novo-topico form textarea {
+  height: 120px;
+
+  padding: 10px 24px;
+
+  color: #4D4D4D;
+  font-family: Quicksand;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.lado-direito .discussoes .novo-topico form button {
+  display: flex;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-end;
+
+  width: 205.104px;
+  height: 31px;
+  flex-shrink: 0;
+
+  border-radius: 0px 0px 4px 0px;
+  background: linear-gradient(180deg, #FEB154 0%, #F1833E 100%);
+
+  color: #FFF;
+  font-family: Quicksand;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+
+  cursor: pointer;
+}

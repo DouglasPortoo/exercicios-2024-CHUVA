@@ -24,6 +24,25 @@
         verMaisButton.textContent = 'ver menos';
       }
     }
+
+    function createTopic() {
+      var compartilharContent = document.querySelector('.compartilhar');
+      var novoTopicoButton = document.querySelector('.novo-topico');
+  
+      if (novoTopicoButton.classList.contains('hide')) {
+        novoTopicoButton.classList.remove('hide');
+      } else {
+        novoTopicoButton.classList.add('hide');
+      }
+
+      if (compartilharContent.classList.contains('hide')) {
+        compartilharContent.classList.remove('hide');
+      } else {
+        compartilharContent.classList.add('hide');
+      }
+
+
+    }
   </script>
 </body>
 

@@ -224,7 +224,7 @@
     <div class="discussoes">
       <h2>Discussões</h2>
 
-      <div class="compartilhar">
+      <div class="compartilhar hide">
         <h3>Compartilhe suas ideias ou dúvidas com os autores!</h3>
 
         <div class="imagens">
@@ -237,10 +237,22 @@
         </p>
 
 
-        <button type="button">
-          <img src="../assets/plus.svg"> criar tópico
+        <button type="button" onclick="createTopic()">
+          <img src="../assets/plus.svg" > criar tópico
         </button>
 
+      </div>
+
+      <div class="novo-topico ">
+        <p>Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!</p>
+
+        <form>
+          <label for="">Assunto</label>
+          <input type="text" placeholder="Defina um tópico sucinto para notificar os autores...">
+          <label for="">Conteúdo</label>
+          <textarea ></textarea>
+          <button type="button" onclick="createTopic()">Enviar</button>
+        </form>
       </div>
 
       <div class="container-topico">
