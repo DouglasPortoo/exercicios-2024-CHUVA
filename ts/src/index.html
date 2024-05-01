@@ -1,13 +1,30 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
   <meta charset="utf-8">
-  <title>Ts</title>
+  <title>Chuva</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
+
 <body>
   <app-root></app-root>
+  <script>
+    function toggleResumo() {
+      var resumoContent = document.querySelector('.resumo-conteudo');
+      var verMaisButton = document.querySelector('.ver-mais');
+  
+      if (resumoContent.classList.contains('expandido')) {
+        resumoContent.classList.remove('expandido');
+        verMaisButton.textContent = 'ver mais...';
+      } else {
+        resumoContent.classList.add('expandido');
+        verMaisButton.textContent = 'ver menos';
+      }
+    }
+  </script>
 </body>
+
 </html>
