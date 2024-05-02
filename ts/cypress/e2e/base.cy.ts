@@ -9,7 +9,7 @@ describe('checa elementos básicos', () => {
   });
 
   it('botão de expandir resumo existe', () => {
-    cy.get('.btn-show-more').contains('ver mais');
+    cy.get('.btn-show-more').contains('ver mais').click();
     cy.compareSnapshot('Trabalho - Resumo expandido');
   });
 
@@ -34,8 +34,11 @@ describe('checa elementos básicos', () => {
 
   it('enviar o formulário exibe mensagem de sucesso', () => {
     cy.get('.btn-create-topic').click();
-    cy.get('button').click();
-    cy.get('body').contains('Aguardando feedback dos autores');
+    cy.get('form').within(() => {
+      cy.get('button').click();
+    });
+    cy.get('.modal').should('not.have.class', 'hide');
+    cy.contains('Aguardando feedback dos autores').should('be.visible');
     cy.compareSnapshot('Trabalho - Topico enviado');
   });
 

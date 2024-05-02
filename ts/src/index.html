@@ -64,6 +64,18 @@
         modal.classList.add('hide');
       });
     }
+
+    function ExpandedTopicCard(){
+
+      const comments_container = document.querySelector('.comments-container');
+
+      if (comments_container.classList.contains('hide')) {
+        comments_container.classList.remove('hide');
+      } else {
+        comments_container.classList.add('hide');
+      }
+    }
+
   </script>
 </body>
 
