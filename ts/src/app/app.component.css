@@ -43,7 +43,6 @@
   font-weight: 500;
 
   cursor: pointer;
-
 }
 
 .side-menu .side-bar li:hover {
@@ -54,7 +53,7 @@
   border-left-style: solid;
 }
 
-.lado-direito header {
+.side-content header {
   padding-right: 45px;
   padding-left: 45px;
 
@@ -69,7 +68,7 @@
   margin-bottom: 22px;
 }
 
-.lado-direito header .title p {
+.side-content header .title p {
   color: #725C5C;
   font-family: Roboto;
   font-size: 14px;
@@ -78,7 +77,7 @@
   line-height: normal;
 }
 
-.lado-direito header .title h3 {
+.side-content header .title h3 {
   color: #725C5C;
   font-family: Roboto;
   font-size: 22px;
@@ -87,12 +86,12 @@
   line-height: normal;
 }
 
-.lado-direito header .idiomas-login {
+.side-content header .languages-login {
   display: flex;
   gap: 22px;
 }
 
-.lado-direito header .botao-idiomas {
+.side-content header .button-language {
   border-radius: 3px;
   border: 1px solid #CCC;
 
@@ -101,19 +100,18 @@
   gap: 5px;
 }
 
-.lado-direito header .botao-idiomas select {
+.side-content header .button-language select {
   background-color: #FDF1EB;
   border: none;
 }
 
-.lado-direito header .login {
+.side-content header .login {
   display: flex;
   gap: 5px;
   align-items: center;
 }
 
-
-.lado-direito header .login>div>p {
+.side-content header .login>div>p {
   color: #333;
   font-family: Quicksand;
   font-size: 12px;
@@ -121,16 +119,16 @@
   line-height: normal;
 }
 
-.lado-direito header .login>div>p:first-child {
+.side-content header .login>div>p:first-child {
   display: flex;
   justify-content: flex-end;
 }
 
-.lado-direito header .login img {
+.side-content header .login img {
   border-radius: 999%;
 }
 
-.lado-direito .content {
+.side-content .content {
   padding-right: 45px;
   padding-left: 45px;
 
@@ -138,37 +136,35 @@
   gap: 30px;
 }
 
-.lado-direito .content .video {
+.side-content .content .video {
   display: flex;
   flex-direction: column;
   gap: 19px;
 }
 
-.lado-direito .content .video h2 {
+.side-content .content .video h2 {
   color: #ED7839;
   font-family: Roboto;
   font-size: 20px;
   font-style: normal;
   font-weight: 900;
   line-height: 25px;
-  /* 125% */
   letter-spacing: 1px;
 }
 
-.lado-direito .content .detalhes {
+.side-content .content .details {
   width: 400px;
-
   display: flex;
   flex-direction: column;
 }
 
-.lado-direito .content .detalhes .buttons {
+.side-content .content .details .buttons {
   display: flex;
   justify-content: flex-end;
   gap: 10px;
 }
 
-.lado-direito .content .detalhes .buttons button {
+.side-content .content .details .buttons button {
   padding: 10px 20px;
   display: flex;
   align-items: center;
@@ -190,7 +186,7 @@
   margin-bottom: 12px;
 }
 
-.lado-direito .content .detalhes>span {
+.side-content .content .details>span {
   color: #ED7839;
   text-align: right;
   font-family: Roboto;
@@ -203,23 +199,21 @@
   margin-bottom: 5px;
 }
 
-.lado-direito .content .detalhes>p {
+.side-content .content .details>p {
   color: #4E4E4E;
   font-family: Roboto;
   font-size: 20px;
   font-weight: 800;
   line-height: 25px;
 
-
   border-radius: 3px 3px 0px 0px;
   border: 1px solid #ECECEC;
   background: #FDF1EB;
 
   padding: 15px 11px;
-
 }
 
-.lado-direito .content .detalhes .painel-scroll {
+.side-content .content .details .scroll-pane {
   height: 364px;
   padding: 16px;
   overflow-y: auto;
@@ -227,10 +221,7 @@
   border: 1px solid #ECECEC;
 }
 
-
-
-.lado-direito .resumo {
-
+.side-content .summary {
   margin-top: 30px;
   margin-right: 45px;
   margin-left: 45px;
@@ -240,7 +231,7 @@
 }
 
 
-.lado-direito .resumo h2 {
+.side-content .summary h2 {
   color: #4E4E4E;
   font-family: Roboto;
   font-size: 20px;
@@ -255,7 +246,7 @@
   padding: 15px 11px;
 }
 
-.lado-direito .resumo p {
+.side-content .summary p {
   align-self: stretch;
 
   color: #5C5C5C;
@@ -268,7 +259,7 @@
   padding: 15px
 }
 
-.lado-direito .resumo span {
+.side-content .summary span {
   color: #ED7839;
   font-family: Quicksand;
   font-size: 14px;
@@ -283,17 +274,16 @@
   justify-content: flex-end;
 }
 
-.resumo-conteudo {
+.summary-content {
   overflow: hidden;
   max-height: 200px;
-  /* transition: max-height 0.3s ease; */
 }
 
-.resumo-conteudo.expandido {
+.summary-content.expandido {
   max-height: none;
 }
 
-.lado-direito .discussoes {
+.side-content .discussions {
 
   margin-top: 30px;
   margin-right: 45px;
@@ -304,7 +294,7 @@
   border: 1px solid #ECECEC;
 }
 
-.lado-direito .discussoes h2 {
+.side-content .discussions h2 {
   color: #4E4E4E;
   font-family: Roboto;
   font-size: 20px;
@@ -317,16 +307,15 @@
   background: #FDF1EB;
 
   padding: 15px 11px;
-
 }
 
-.lado-direito .discussoes .compartilhar {
+.side-content .discussions .share {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.lado-direito .discussoes .compartilhar h3 {
+.side-content .discussions .share h3 {
   color: #ED7839;
   font-family: Roboto;
   font-size: 18px;
@@ -337,18 +326,18 @@
   margin: 15px;
 }
 
-.lado-direito .discussoes .compartilhar .imagens {
+.side-content .discussions .share .images {
   display: flex;
   gap: 50px;
   margin-bottom: 35px;
 }
 
-.imagens img {
+.images img {
   width: 50.26px;
   height: 48.935px;
 }
 
-.lado-direito .discussoes .compartilhar p {
+.side-content .discussions .share p {
   color: #595959;
   font-family: Quicksand;
   font-size: 14px;
@@ -362,7 +351,7 @@
   margin-bottom: 20px
 }
 
-.lado-direito .discussoes .compartilhar button {
+.side-content .discussions .share button {
 
   display: flex;
   justify-content: center;
@@ -388,16 +377,15 @@
 
   background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
   filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.24)) drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.12));
-
 }
 
-.lado-direito .discussoes .container-topico {
+.side-content .discussions .topic-container {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
 
-.lado-direito .discussoes .container-topico .topico {
+.side-content .discussions .topic-container .topics {
   padding: 15px;
   margin: 15px;
 
@@ -407,37 +395,32 @@
   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.12);
 }
 
-.lado-direito .discussoes .container-topico .topico h3 {
+.side-content .discussions .topic-container .topics h3 {
   color: #ED7839;
   font-family: Roboto;
   font-size: 18px;
   font-weight: 700;
   line-height: 22px;
   cursor: pointer;
-
 }
 
-.lado-direito .discussoes .container-topico .topico span {
+.side-content .discussions .topic-container .topics span {
   color: #5C5C5C;
   font-family: Quicksand;
   font-size: 12px;
   font-weight: 500;
   line-height: normal;
-
 }
 
-
-.lado-direito .discussoes .container-topico .topico p {
+.side-content .discussions .topic-container .topics p {
   color: #4D4D4D;
   font-family: Quicksand;
   font-size: 14px;
   font-weight: 400;
   line-height: normal;
-
-
 }
 
-.lado-direito .discussoes .container-topico .topico .botoes-topicos {
+.side-content .discussions .topic-container .topics .topics-buttons {
   display: flex;
   align-items: center;
 
@@ -447,12 +430,12 @@
   margin-top: 10px;
 }
 
-.lado-direito .discussoes .container-topico .topico .botoes-topicos img {
+.side-content .discussions .topic-container .topics .topics-buttons img {
   height: 13px;
   cursor: pointer;
 }
 
-.lado-direito .discussoes .container-topico .topico .botoes-topicos button {
+.side-content .discussions .topic-container .topics .topics-buttons button {
   background-color: #ED7839;
   filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.24)) drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.12));
   border: none;
@@ -468,7 +451,7 @@
 }
 
 
-.lado-direito .discussoes .container-topico .topico .botoes-topicos p {
+.side-content .discussions .topic-container .topics .topics-buttons p {
   color: #757575;
   font-family: "Segoe UI";
   font-size: 14px;
@@ -482,7 +465,7 @@ footer img {
   padding-left: 4px;
 }
 
-.lado-direito .discussoes .novo-topico p {
+.side-content .discussions .new-topic p {
   text-align: center;
   width: 100%;
   margin: 15px;
@@ -496,17 +479,15 @@ footer img {
 
 }
 
-.lado-direito .discussoes .novo-topico form {
+.side-content .discussions .new-topic form {
   display: flex;
   flex-direction: column;
   margin: 15px;
 
-
   background: #EAF1F2;
 }
 
-.lado-direito .discussoes .novo-topico label {
-
+.side-content .discussions .new-topic label {
   color: #ED7839;
   font-family: Roboto;
   font-size: 16px;
@@ -519,8 +500,7 @@ footer img {
   background-color: white;
 }
 
-
-.lado-direito .discussoes .novo-topico form input {
+.side-content .discussions .new-topic form input {
   padding: 10px 24px;
   border-radius: 3px;
   border: 1px solid #CCC;
@@ -534,7 +514,7 @@ footer img {
   line-height: normal;
 }
 
-.lado-direito .discussoes .novo-topico form textarea {
+.side-content .discussions .new-topic form textarea {
   height: 120px;
 
   padding: 10px 24px;
@@ -547,7 +527,7 @@ footer img {
   line-height: normal;
 }
 
-.lado-direito .discussoes .novo-topico form button {
+.side-content .discussions .new-topic form button {
   display: flex;
   border: none;
   justify-content: center;
@@ -571,7 +551,7 @@ footer img {
   cursor: pointer;
 }
 
-.lado-direito .discussoes .container-topico .modal {
+.side-content .discussions .topic-container .modal {
 
   display: flex;
   text-align: center;
@@ -582,20 +562,17 @@ footer img {
   background: #DDDDDD;
 }
 
-.lado-direito .discussoes .container-topico .hide {
+.side-content .discussions .topic-container .hide {
   display: none;
-
 }
 
-.lado-direito .discussoes .container-topico .modal img {
-
+.side-content .discussions .topic-container .modal img {
   width: 30.917px;
   height: 23.22px
 }
 
 
-.lado-direito .discussoes .container-topico .modal span {
-
+.side-content .discussions .topic-container .modal span {
   color: #707070;
   font-family: Quicksand;
   font-size: 16px;
@@ -604,7 +581,7 @@ footer img {
   line-height: normal;
 }
 
-.lado-direito .discussoes .container-topico .modal p {
+.side-content .discussions .topic-container .modal p {
   color: #ED7839;
   font-family: "Segoe UI";
   font-size: 14px;
@@ -612,10 +589,9 @@ footer img {
   font-weight: 400;
   line-height: normal;
   text-decoration-line: underline;
-  
 }
 
-.lado-direito .discussoes .modal span {
+.side-content .discussions .modal span {
   color: #F48F44;
   
   font-family: Quicksand;
@@ -626,18 +602,16 @@ footer img {
   text-decoration-line: underline;
   
   margin-bottom: 50px;
-  
 }
 
-.lado-direito .discussoes .modal button {
+.side-content .discussions .modal button {
   width: 235.145px;
   height: 32px;
 }
 
-.lado-direito .discussoes .hide {
+.side-content .discussions .hide {
   display: none;
 }
-
 
 .comments-container .none {
   margin-top: 20px;
@@ -646,7 +620,6 @@ footer img {
   padding-bottom: 30px;
   border: 1px solid #E7E7E7;
   background: #FFF;
-
 }
 
 .comments-container .autor {
@@ -657,14 +630,12 @@ footer img {
 
   border: 1px solid #E7E7E7;
   background: #F8F8F8;
-
 }
 
 .comments-container .autor div {
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
-
 }
 
 .comments-container .autor span {

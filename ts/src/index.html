@@ -21,8 +21,8 @@
   <app-root></app-root>
   <script>
     function toggleResumo() {
-      const resumoContent = document.querySelector('.resumo-conteudo');
-      const verMaisButton = document.querySelector('.ver-mais');
+      const resumoContent = document.querySelector('.summary-content');
+      const verMaisButton = document.querySelector('.btn-show-more');
 
       if (resumoContent.classList.contains('expandido')) {
         resumoContent.classList.remove('expandido');
@@ -34,27 +34,27 @@
     }
 
     function createTopic() {
-      const compartilhar = document.querySelector('.compartilhar');
-      const novo_topico = document.querySelector('.novo-topico');
+      const share = document.querySelector('.share');
+      const new_topic = document.querySelector('.new-topic');
 
-      if (novo_topico.classList.contains('hide')) {
-        novo_topico.classList.remove('hide');
+      if (new_topic.classList.contains('hide')) {
+        new_topic.classList.remove('hide');
       } else {
-        novo_topico.classList.add('hide');
+        new_topic.classList.add('hide');
       }
 
-      if (compartilhar.classList.contains('hide')) {
-        compartilhar.classList.remove('hide');
+      if (share.classList.contains('hide')) {
+        share.classList.remove('hide');
       } else {
-        compartilhar.classList.add('hide');
+        share.classList.add('hide');
       }
     }
 
     function sendATopic() {
-      const novo_topico = document.querySelector('.novo-topico');
+      const new_topic = document.querySelector('.new-topic');
       const modais = document.querySelectorAll('.modal');
 
-      novo_topico.classList.add('hide');
+      new_topic.classList.add('hide');
       modais.forEach(modal => {
         modal.classList.remove('hide');
       });
@@ -63,11 +63,11 @@
 
     function newTopic() {
       console.log("new topic")
-      const compartilhar = document.querySelector('.compartilhar');
+      const share = document.querySelector('.share');
       const modais = document.querySelectorAll('.modal');
 
 
-      compartilhar.classList.remove('hide');
+      share.classList.remove('hide');
       modais.forEach(modal => {
         modal.classList.add('hide');
       });
