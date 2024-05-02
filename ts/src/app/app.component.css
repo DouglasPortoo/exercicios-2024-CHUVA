@@ -481,15 +481,6 @@ footer img {
   padding-left: 4px;
 }
 
-.lado-direito .discussoes .hide {
-  display: none;
-  background-color: blue;
-}
-
-.lado-direito .discussoes .hide {
-  display: none;
-}
-
 .lado-direito .discussoes .novo-topico p {
   text-align: center;
   width: 100%;
@@ -577,4 +568,70 @@ footer img {
   line-height: 16px;
 
   cursor: pointer;
+}
+
+.lado-direito .discussoes .container-topico .modal {
+
+  display: flex;
+  height: 148px;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  background: #DDDDDD;
+}
+
+.lado-direito .discussoes .container-topico .hide {
+  display: none;
+
+}
+
+.lado-direito .discussoes .container-topico .modal img {
+
+  width: 30.917px;
+  height: 23.22px
+}
+
+
+.lado-direito .discussoes .container-topico .modal span {
+
+  color: #707070;
+  font-family: Quicksand;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.lado-direito .discussoes .container-topico .modal p {
+  color: #ED7839;
+  font-family: "Segoe UI";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.lado-direito .discussoes .modal span {
+  color: #F48F44;
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 137.5%;
+  text-decoration-line: underline;
+
+  margin-bottom: 50px;
+}
+
+.lado-direito .discussoes .modal button {
+  width: 235.145px;
+  height: 32px;
+}
+
+.lado-direito .discussoes .hide {
+  display: none;
 }
